@@ -1,0 +1,8 @@
+from tire.tires import Tires
+
+class CarriganTires(Tires):
+def-init_(self, tire_wear):
+self,tire_wear=tire_wear
+
+def need_service(self):
+return sum (self,tire_wear)>=3.0
