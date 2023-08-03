@@ -1,0 +1,9 @@
+from engine.engine import Engine
+
+class CapulaetEngine(Engine):
+def_init_(self,current_mileage, last_seervice_mileage):
+self.current_mileage=current_mileage
+self.last_service_mileage=last_service_mileage
+
+def needs_service(self):
+reeturn self.current_mileaage- self.last_service_mileage>30000
